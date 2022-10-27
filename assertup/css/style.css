@@ -1,0 +1,48 @@
+body{
+  background-color: #b1b1c9;
+}
+button{
+  background-color: #2f2830;
+  border: 0;
+  color: #f508e9;
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  transition: all 0.3s;
+}
+button:hover{
+  color: rgba(223, 0, 255, 0.8)
+}
+button i {
+  font-size: 2.5vw;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15vw;
+  height: 15vw;
+  border-top: 0.2vw solid rgba(223, 0, 225, 0);
+  background-color: #2f2830;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+input:checked{
+  border: 0.7vw solid #2f2830;
+  border-bottom: 0.2vw solid rgba(223, 0, 225, 0);
+  background-color: rgba(223, 0, 225, 0);
+}
+.radios-container{
+  margin: auto;
+  margin-left: 10px;
+}
+
